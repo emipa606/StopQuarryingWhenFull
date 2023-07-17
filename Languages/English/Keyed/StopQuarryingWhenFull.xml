@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <StopQuarryingWhenFull_CurrentModVersion_Label>Installed mod-version: {0}</StopQuarryingWhenFull_CurrentModVersion_Label>
+  <StopQuarryingWhenFull_Percentage_title>Percentage of Tiles</StopQuarryingWhenFull_Percentage_title>
+  <StopQuarryingWhenFull_Percentage_titlefull>Percentage of Tiles: {0}</StopQuarryingWhenFull_Percentage_titlefull>
+  <StopQuarryingWhenFull_Percentage_desc>The maximum percentage of the tiles inside the quarry that can contain an item before the quarry stops accepting new jobs.</StopQuarryingWhenFull_Percentage_desc>
+  <StopQuarryingWhenFull_FullMessage>Cannot mine: quarry is full</StopQuarryingWhenFull_FullMessage>
+</LanguageData>
