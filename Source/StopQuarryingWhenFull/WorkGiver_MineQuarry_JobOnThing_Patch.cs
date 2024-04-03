@@ -8,7 +8,7 @@ namespace StopQuarryingWhenFull;
 [HarmonyPatch(typeof(WorkGiver_MineQuarry), nameof(WorkGiver_MineQuarry.JobOnThing))]
 internal static class WorkGiver_MineQuarry_JobOnThing_Patch
 {
-    public static bool Prefix(ref Job __result, Pawn pawn, Thing t, bool forced)
+    public static bool Prefix(ref Job __result, Thing t)
     {
         if (t is not Building_Quarry quarry || !StopQuarryingWhenFull.QuarryIsFull(quarry))
         {

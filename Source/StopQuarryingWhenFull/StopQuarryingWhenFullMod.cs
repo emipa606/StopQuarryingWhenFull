@@ -52,7 +52,7 @@ internal class StopQuarryingWhenFullMod : Mod
         listing_Standard.Label(
             "StopQuarryingWhenFull_Percentage_titlefull".Translate(Settings.fullPercentage.ToStringPercent()), -1,
             "StopQuarryingWhenFull_Percentage_desc".Translate());
-        Settings.fullPercentage = Widgets.HorizontalSlider_NewTemp(listing_Standard.GetRect(20),
+        Settings.fullPercentage = Widgets.HorizontalSlider(listing_Standard.GetRect(20),
             Settings.fullPercentage, 0.01f, 1f, false, "StopQuarryingWhenFull_Percentage_title".Translate());
         if (currentVersion != null)
         {
