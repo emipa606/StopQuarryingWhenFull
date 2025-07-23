@@ -5,7 +5,7 @@ using Verse;
 namespace StopQuarryingWhenFull;
 
 [HarmonyPatch(typeof(Building_Quarry), nameof(Building_Quarry.GetInspectString))]
-internal static class Building_Quarry_GetInspectString_Patch
+internal static class Building_Quarry_GetInspectString
 {
     public static void Postfix(ref string __result, Building_Quarry __instance)
     {

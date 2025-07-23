@@ -6,7 +6,7 @@ using Verse.AI;
 namespace StopQuarryingWhenFull;
 
 [HarmonyPatch(typeof(WorkGiver_MineQuarry), nameof(WorkGiver_MineQuarry.JobOnThing))]
-internal static class WorkGiver_MineQuarry_JobOnThing_Patch
+internal static class WorkGiver_MineQuarry_JobOnThing
 {
     public static bool Prefix(ref Job __result, Thing t)
     {
