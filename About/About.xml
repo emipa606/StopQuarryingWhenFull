@@ -17,14 +17,14 @@
       <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
     </li>
     <li>
-      <packageId>DawnsGlow.Quarry</packageId>
+      <packageId>Ogliss.TheWhiteCrayon.Quarry</packageId>
       <displayName>Quarry</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/3513840161</steamWorkshopUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2007576583</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
-    <li>DawnsGlow.Quarry</li>
+    <li>Ogliss.TheWhiteCrayon.Quarry</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Ben Lubars mod https://steamcommunity.com/sharedfiles/filedetails/?id=2631408323
@@ -49,7 +49,7 @@ Stop pawns from quarrying when more than a certain percentage (75% by default) o
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
@@ -57,5 +57,5 @@ Stop pawns from quarrying when more than a certain percentage (75% by default) o
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3005989098][img]https://img.shields.io/github/v/release/emipa606/StopQuarryingWhenFull?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  automation,  limitation</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
